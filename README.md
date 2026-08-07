@@ -266,6 +266,7 @@ The workflow was designed to support additional automations using Multi-Step Zap
 
 If you see a similar challenge in your business, I'd be happy to discuss ideas and possible solutions.
 
+[![Email](https://img.shields.io/badge/Email-Hire%20Me-00C47F?style=flat&logo=gmail&logoColor=white)](mailto:sanchezmitch77@gmail.com)
 
-
+---
 [⬅ Back to Profile](https://github.com/mitchsanchez29) · [📊 Reporting & Analytics](../reporting-analytics) · [💰 Finance & Operations](../finance-operations)
