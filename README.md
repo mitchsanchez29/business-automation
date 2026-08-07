@@ -271,4 +271,5 @@ If you see a similar challenge in your business, I'd be happy to discuss ideas a
 💼 **[LinkedIn](https://www.linkedin.com/in/michelle29/)**
 
 ---
-[⬅ Back to Profile](https://github.com/mitchsanchez29) · [📊 Reporting & Analytics](../reporting-analytics) · [💰 Finance & Operations](../finance-operations)
+[⬅ Back to Profile](https://github.com/mitchsanchez29) · [📊 Reporting & Analytics](https://github.com/mitchsanchez29/reporting-analytics) · [💰 Finance & Operations](https://github.com/mitchsanchez29/finance-operations)
+
