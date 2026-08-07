@@ -39,8 +39,12 @@ Systems that remove repetitive manual work — quote generation, lead pipelines,
 - Apps Script logic to move records through the pipeline
 
 **Screenshots**
+<img width="401" height="531" alt="Screenshot 2026-08-07 112835" src="https://github.com/user-attachments/assets/3d06b76c-d585-41d2-acdc-55eabae10451" />
+<img width="987" height="560" alt="Screenshot 2026-08-07 121832" src="https://github.com/user-attachments/assets/691789f0-2b40-48d5-9ef4-6ec465d92d3c" />
+<img width="698" height="562" alt="Screenshot 2026-08-07 121512" src="https://github.com/user-attachments/assets/d27e2214-6d1f-4ca2-b840-d2e2871ec59e" />
+<img width="1418" height="156" alt="Screenshot 2026-08-07 121407" src="https://github.com/user-attachments/assets/88ab6e0d-1906-4b79-b36b-52294c38508a" />
 
-*Screenshot Coming Soon*
+*Form - Leads save to sheets- auto create Folder of Leads - Master Tracker - Coordinator Workspace*
 
 **Business Questions Answered:**
 - Where is each record in the 10-stage process right now?
