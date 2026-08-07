@@ -154,8 +154,7 @@ The system automatically:
 
 | 📝 Quotation Request Form | 📊 Lead Tracker |
 |---|---|
-| <img width="317" height="693" alt="Screenshot 2026-08-07 154604" src="https://github.com/user-attachments/assets/643757d2-e905-43df-8bb9-dd594b6ebde4" />
- | <img width="600" alt="Lead Tracker" src="https://github.com/user-attachments/assets/f4f73371-54c9-4d2f-841e-1372d42445fc" /> |
+| <img width="317" height="693" alt="Screenshot 2026-08-07 154604" src="https://github.com/user-attachments/assets/643757d2-e905-43df-8bb9-dd594b6ebde4" />| <img width="600" alt="Lead Tracker" src="https://github.com/user-attachments/assets/f4f73371-54c9-4d2f-841e-1372d42445fc" /> |
 | Clients submit quotation requests through a Google Form, automatically triggering the quotation workflow. | Centralized tracker that records every quotation, generates a unique quotation number, and monitors the status of each request. |
 
 | 📈 Dashboard Summary | 📁 Automated Quote Delivery & Storage |
