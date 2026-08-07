@@ -6,14 +6,12 @@ Systems that remove repetitive manual work — quote generation, lead pipelines,
 
 ---
 
-## What's In This Repository
-
-| Project | Type |
-|---|---|
-| Coordinator Workflow Automation | WORK PROJECT |
-| Slack Notification Automation | WORK PROJECT |
-| Automated Quotation & CRM | CASE STUDY |
-| Lead Management Automation | CASE STUDY |
+## Featured Projects
+|---------|---|
+| Lead Operations Management System | ![Work Project](https://img.shields.io/badge/Work-Project-success) |
+| Slack Notification Automation | ![Work Project](https://img.shields.io/badge/Work-Project-success) |
+| Automated Quotation & CRM | ![Case Study](https://img.shields.io/badge/Case-Study-blue) |
+| Lead Management Automation | ![Case Study](https://img.shields.io/badge/Case-Study-blue) |
 
 ---
 
