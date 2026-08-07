@@ -45,7 +45,7 @@ The system automatically:
 
 **Workflow**
 
-<img width="592" height="341" alt="image" src="https://github.com/user-attachments/assets/c62a3d8b-d165-450d-9e3b-385452b6f8f8" />
+<img width="1283" height="680" alt="Screenshot 2026-08-07 144146" src="https://github.com/user-attachments/assets/9549f823-c8cd-4130-94a5-d78b027d2fc6" />
 
 ### Key Features
 
