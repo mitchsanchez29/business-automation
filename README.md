@@ -68,12 +68,12 @@ The system automatically:
 
 | 👩‍💼 Coordinator Workspace | ✅ Stage Checklist |
 |---|---|
-| <img width="987" height="560" alt="Screenshot 2026-08-07 121832" src="https://github.com/user-attachments/assets/691789f0-2b40-48d5-9ef4-6ec465d92d3c" /> | <img width="566" height="525" alt="Screenshot 2026-08-07 140733" src="https://github.com/user-attachments/assets/bca5b3fb-bec3-4d23-830c-7099dbe1da36" /> |
+| <img width="698" height="562" alt="Screenshot 2026-08-07 121512" src="https://github.com/user-attachments/assets/d27e2214-6d1f-4ca2-b840-d2e2871ec59e" /> | <img width="566" height="525" alt="Screenshot 2026-08-07 140733" src="https://github.com/user-attachments/assets/bca5b3fb-bec3-4d23-830c-7099dbe1da36" /> |
 | Coordinators manage and update leads from one workspace. | Checklist ensures each stage is completed before moving to the next. |
 
 | 📈 Dashboard Summary | |
 |---|---|
-| <img width="698" height="562" alt="Screenshot 2026-08-07 121512" src="https://github.com/user-attachments/assets/d27e2214-6d1f-4ca2-b840-d2e2871ec59e" /> | Displays real-time workflow progress and operational metrics. |
+| <img width="987" height="560" alt="Screenshot 2026-08-07 121832" src="https://github.com/user-attachments/assets/691789f0-2b40-48d5-9ef4-6ec465d92d3c" />| Displays real-time workflow progress and operational metrics. |
 
 
 ### Business Questions This System Answers
@@ -171,54 +171,92 @@ The system automatically:
 
 ## Lead Management Automation
 
-**Type:** CASE STUDY
+**Type:** Portfolio Project
 
-**Business Problem:** Lead data lived in a flat spreadsheet with no structured pipeline — no clear way to see which stage each lead was at.
+### Business Problem
 
-**Business Goal:** Give leads a clear, visual pipeline from first contact to close.
+New leads were captured manually across different tools, making it difficult to organize lead information, track pipeline progress, and ensure the sales team was notified immediately. This increased the risk of delayed follow-ups and missed business opportunities.
 
-**My Solution:** A lead management system built around a five-stage Airtable pipeline: **Airtable Forms → Zapier → Google Sheets → Gmail.** New leads come in through an Airtable Form, Zapier pushes the data into Google Sheets, and Gmail handles follow-up notifications.
+### Business Goal
+
+Create a centralized lead management workflow that automatically captures new leads, synchronizes data across business tools, and instantly notifies the sales team for faster follow-up.
+
+### My Solution
+
+Built a lead management automation using Airtable Forms, Zapier, Google Sheets, and Gmail.
+
+The system automatically:
+- Captures new leads through an Airtable Form
+- Organizes leads in an Airtable pipeline
+- Synchronizes lead information to Google Sheets for reporting and future automations
+- Sends an automatic email notification to the sales manager whenever a new lead is received
 
 **Workflow**
 
-*Future Workflow Diagram*
+*(Workflow Diagram)*
 
-**Key Features:**
-- Five-stage lead pipeline in Airtable
-- Airtable Forms for lead intake
-- Zapier automation moving data into Google Sheets
-- Gmail-based follow-up notifications
-*(automations partially limited by Airtable's free-plan restrictions)*
+### Key Features
 
-**Screenshots**
-
-*Screenshot Coming Soon*
-
-**Business Questions Answered:**
-- Which stage is each lead currently sitting in?
-- How many leads are stuck at a given stage?
-
-**Business Value:** A visual, structured pipeline instead of a flat spreadsheet — easier to see where leads are getting stuck.
-
-**Tech Stack:** `Airtable` `Airtable Forms` `Zapier` `Google Sheets` `Gmail`
+- Airtable Form lead capture
+- Centralized Airtable lead pipeline
+- Automatic lead synchronization to Google Sheets
+- Zapier automation connecting Airtable, Google Sheets, and Gmail
+- Instant email notification for new leads
+- Reporting-ready Google Sheets database
 
 ---
 
-## ChatGPT Email Automation
+## 📸 System Walkthrough
 
-**Type:** CASE STUDY *(planned — not yet built)*
+| 📝 Airtable Lead Intake Form | 📋 Airtable Lead Pipeline |
+|---|---|
+| <img width="438" height="662" alt="Screenshot 2026-08-07 144716" src="https://github.com/user-attachments/assets/01835830-431c-4ffa-9648-44917c5a5ac3" />
+ | <img width="1163" height="327" alt="Screenshot 2026-08-07 144954" src="https://github.com/user-attachments/assets/f88b7118-5ff5-48dc-b320-577477afc975" /> |
+| New leads are submitted through an Airtable Form and automatically added to the pipeline. | All submitted leads are organized in Airtable, providing a centralized view of every lead and its current stage. |
 
-**Business Problem:** Drafting context-aware client emails by hand takes time, especially at volume.
+| 📊 Google Sheets Reporting Database | ⚡ Zapier Automation Workflow |
+|---|---|
+| <img width="1325" height="243" alt="Screenshot 2026-08-07 150644" src="https://github.com/user-attachments/assets/9221e09d-bf9b-4570-8ebe-9f73fa0b8193" />
+ | <img width="296" height="397" alt="Screenshot 2026-08-07 145552" src="https://github.com/user-attachments/assets/61b42b51-1106-42b0-8581-2bc494f6edeb" />
+ |
+| Lead information is automatically synchronized to Google Sheets, creating a centralized reporting database for analysis and future automations. | Zapier connects Airtable, Google Sheets, and Gmail, eliminating manual data entry and keeping lead information synchronized. |
 
-**Planned Solution:** Integrate the ChatGPT API with Google Apps Script to generate context-aware email drafts automatically — the script would read data from Sheets, build a prompt, call the OpenAI API, and create a Gmail draft for human review before sending.
+| 📧 New Lead Notification | |
+|---|---|
+| <img width="317" height="465" alt="Screenshot 2026-08-07 152745" src="https://github.com/user-attachments/assets/3536a2e4-6758-4b24-b317-8b1610074988" />
+ | Automatically sends an email notification to the sales manager whenever a new lead is submitted, enabling faster follow-up and reducing the risk of missed opportunities. |
 
-**Status:** Still learning this one — it needs a paid OpenAI API key that hasn't been set up yet, so this hasn't actually been built.
+---
 
-**Screenshots**
+### Business Questions This System Answers
 
-*Screenshot Coming Soon*
+- How many new leads have been received?
+- Where is each lead in the sales pipeline?
+- Which leads require follow-up?
+- Has the sales team been notified about every new lead?
 
-**Tech Stack (Planned):** `ChatGPT API` `Google Apps Script` `Gmail` `OpenAI API`
+### Business Value
+
+- Eliminates manual lead entry across multiple platforms
+- Keeps lead information synchronized automatically
+- Improves visibility into the sales pipeline
+- Enables faster response through instant email notifications
+- Creates a scalable workflow that supports future reporting and automation
+
+### Future Enhancements
+
+The workflow was designed to support additional automations using Multi-Step Zap, including:
+
+- Business-hours only email notifications
+- Weekend notification scheduling
+- Multi-step follow-up sequences
+- Conditional notifications based on lead status
+
+*Implementation was not completed due to Airtable and Zapier free-plan limitations.*
+
+### Tech Stack
+
+`Airtable` `Airtable Forms` `Zapier` `Google Sheets` `Gmail`
 
 ---
 
