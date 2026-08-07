@@ -150,14 +150,18 @@ The system automatically:
 - Client email sent with the quote attached — no manual sending
 
 **Screenshots**
+## 📸 System Walkthrough
 
-| **Lead Tracker (Sheets)** | **Dashboard Summary** |
+| 📝 Quotation Request Form | 📊 Lead Tracker |
 |---|---|
-| <img width="600" alt="Lead Tracker" src="https://github.com/user-attachments/assets/f4f73371-54c9-4d2f-841e-1372d42445fc" /> | <img width="600" alt="Dashboard Summary" src="https://github.com/user-attachments/assets/d1705835-5754-47bb-9624-3eac80989d28" /> |
+| <img width="317" height="693" alt="Screenshot 2026-08-07 154604" src="https://github.com/user-attachments/assets/643757d2-e905-43df-8bb9-dd594b6ebde4" />
+ | <img width="600" alt="Lead Tracker" src="https://github.com/user-attachments/assets/f4f73371-54c9-4d2f-841e-1372d42445fc" /> |
+| Clients submit quotation requests through a Google Form, automatically triggering the quotation workflow. | Centralized tracker that records every quotation, generates a unique quotation number, and monitors the status of each request. |
 
-**Auto-generated Response & Google Drive Storage**
-
-<img width="800" alt="Auto-generated Response and Drive Storage" src="https://github.com/user-attachments/assets/1ec987a5-3cb4-41c0-9b54-4807398515c7" />
+| 📈 Dashboard Summary | 📁 Automated Quote Delivery & Storage |
+|---|---|
+| <img width="600" alt="Dashboard Summary" src="https://github.com/user-attachments/assets/d1705835-5754-47bb-9624-3eac80989d28" /> | <img width="800" alt="Auto-generated Response and Drive Storage" src="https://github.com/user-attachments/assets/1ec987a5-3cb4-41c0-9b54-4807398515c7" /> |
+| Provides a real-time overview of quotation activity, status, and overall workflow performance. | Automatically generates the quotation, converts it to PDF, stores it in Google Drive, and emails it to the client without manual intervention. |
 
 **Business Questions Answered:**
 - Which quotes have gone out, and what's their status?
