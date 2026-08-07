@@ -14,7 +14,6 @@ Systems that remove repetitive manual work — quote generation, lead pipelines,
 | Slack Notification Automation | WORK PROJECT |
 | Automated Quotation & CRM | CASE STUDY |
 | Lead Management Automation | CASE STUDY |
-| ChatGPT Email Automation | CASE STUDY (planned) |
 
 ---
 
