@@ -18,141 +18,82 @@ Systems that remove repetitive manual work — quote generation, lead pipelines,
 
 ---
 
-## Coordinator Workflow Automation
+## Lead Operations Management System
 
-**Type:** WORK PROJECT
+**Type:** Work Project
 
-**Business Problem:** A client-facing coordination process ran through 10 separate manual stages, with no structured way to track where each record was in the process.
+### Business Problem
 
-**Business Goal:** Replace stage-by-stage manual tracking with one structured system that moves records through each stage automatically.
+The client managed leads through a 10-stage coordination process using multiple spreadsheets and manual updates. Tracking progress, assigning tasks, and ensuring every required step was completed became time-consuming and difficult to monitor.
 
-**My Solution:** A 10-stage coordinator workflow built in Google Sheets and Apps Script, with a dashboard layer on top to show where every record sits in the pipeline.
+### Business Goal
+
+Create a centralized workflow that standardizes the coordination process, improves visibility, and keeps every lead moving through each stage consistently.
+
+### My Solution
+
+Built a Google Sheets and Apps Script workflow automation that manages the entire coordination process from lead approval to completion.
+
+The system automatically:
+- Creates a unique Sponsor ID for approved leads
+- Generates a dedicated Google Drive folder for each lead
+- Stores all records in a centralized Master Tracker
+- Loads lead information into the Coordinator Workspace
+- Guides coordinators through a standardized 10-stage checklist
+- Updates the Master Tracker automatically as each stage is completed
+- Provides a live dashboard showing the status of every lead in the pipeline
 
 **Workflow**
 
-<svg viewBox="0 0 1400 620" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
-  <defs>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L0,6 L9,3 z" fill="#5b7cad"/>
-    </marker>
-  </defs>
+<img width="592" height="341" alt="image" src="https://github.com/user-attachments/assets/c62a3d8b-d165-450d-9e3b-385452b6f8f8" />
 
-  <rect width="1400" height="620" fill="#ffffff"/>
+### Key Features
 
-  <!-- Title -->
-  <text x="700" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#1c2b4a">Sponsor Workspace — Automated Intake &amp; Pipeline System</text>
-  <text x="700" y="66" text-anchor="middle" font-size="13" fill="#6b7688">Google Forms → Sheets → Apps Script, end to end</text>
+- Google Form lead intake
+- Duplicate lead validation
+- Coordinator approval (Approve / Reject / Cancel)
+- Automatic Sponsor ID generation
+- Automatic Google Drive folder creation
+- Centralized Master Tracker
+- Coordinator Workspace with auto-populated lead details
+- 10-stage checklist with automated stage progression
+- Real-time dashboard for operational visibility
 
-  <!-- Row 1: Intake -->
-  <g>
-    <rect x="40" y="110" width="200" height="90" rx="14" fill="#eaf1fb" stroke="#4a86e8" stroke-width="1.5"/>
-    <text x="140" y="145" text-anchor="middle" font-size="14" font-weight="bold" fill="#1c4587">📋 Google Form</text>
-    <text x="140" y="165" text-anchor="middle" font-size="11" fill="#3c5a8a">Sponsor submits inquiry</text>
-    <text x="140" y="182" text-anchor="middle" font-size="11" fill="#3c5a8a">Name · Email · Phone · Source</text>
-  </g>
-
-  <line x1="240" y1="155" x2="290" y2="155" stroke="#5b7cad" stroke-width="2" marker-end="url(#arrow)"/>
-
-  <g>
-    <rect x="292" y="110" width="220" height="90" rx="14" fill="#fdf3e3" stroke="#f1c232" stroke-width="1.5"/>
-    <text x="402" y="138" text-anchor="middle" font-size="14" font-weight="bold" fill="#8a6d1a">🔍 New Leads Queue</text>
-    <text x="402" y="158" text-anchor="middle" font-size="11" fill="#8a6d1a">Auto duplicate check</text>
-    <text x="402" y="175" text-anchor="middle" font-size="11" fill="#8a6d1a">(matches existing email/phone)</text>
-    <text x="402" y="192" text-anchor="middle" font-size="11" fill="#8a6d1a">Lead ID auto-assigned</text>
-  </g>
-
-  <line x1="512" y1="155" x2="562" y2="155" stroke="#5b7cad" stroke-width="2" marker-end="url(#arrow)"/>
-
-  <g>
-    <rect x="564" y="110" width="230" height="90" rx="14" fill="#eef7ec" stroke="#38761d" stroke-width="1.5"/>
-    <text x="679" y="135" text-anchor="middle" font-size="14" font-weight="bold" fill="#38761d">🧑‍💼 Coordinator Review</text>
-    <text x="679" y="156" text-anchor="middle" font-size="11" fill="#3c6b2e">Approve · Reject · Undo</text>
-    <text x="679" y="173" text-anchor="middle" font-size="11" fill="#3c6b2e">One click, with confirmation</text>
-    <text x="679" y="190" text-anchor="middle" font-size="11" fill="#3c6b2e">prompt before any action</text>
-  </g>
-
-  <!-- down arrow to Master Tracker -->
-  <line x1="679" y1="200" x2="679" y2="255" stroke="#5b7cad" stroke-width="2" marker-end="url(#arrow)"/>
-
-  <!-- Row 2: Master Tracker + Drive -->
-  <g>
-    <rect x="480" y="257" width="400" height="100" rx="14" fill="#eaf1fb" stroke="#1c4587" stroke-width="1.5"/>
-    <text x="680" y="285" text-anchor="middle" font-size="15" font-weight="bold" fill="#1c4587">🧾 Master Tracker</text>
-    <text x="680" y="306" text-anchor="middle" font-size="11" fill="#3c5a8a">Auto-generated Sponsor ID · System of record</text>
-    <text x="680" y="323" text-anchor="middle" font-size="11" fill="#3c5a8a">Stage · Status · Coordinator · Next steps</text>
-    <text x="680" y="340" text-anchor="middle" font-size="11" fill="#3c5a8a">Color-coded by pipeline stage</text>
-  </g>
-
-  <!-- branch to Drive folder -->
-  <line x1="880" y1="307" x2="960" y2="307" stroke="#5b7cad" stroke-width="2" marker-end="url(#arrow)"/>
-  <g>
-    <rect x="962" y="262" width="200" height="90" rx="14" fill="#fdf3e3" stroke="#f1c232" stroke-width="1.5"/>
-    <text x="1062" y="292" text-anchor="middle" font-size="14" font-weight="bold" fill="#8a6d1a">📁 Drive Folder</text>
-    <text x="1062" y="312" text-anchor="middle" font-size="11" fill="#8a6d1a">Auto-created per Sponsor</text>
-    <text x="1062" y="329" text-anchor="middle" font-size="11" fill="#8a6d1a">Named &amp; organized automatically</text>
-  </g>
-
-  <!-- down arrow to Sponsor Workspace -->
-  <line x1="680" y1="357" x2="680" y2="412" stroke="#5b7cad" stroke-width="2" marker-end="url(#arrow)"/>
-
-  <!-- Row 3: Sponsor Workspace -->
-  <g>
-    <rect x="420" y="414" width="520" height="110" rx="14" fill="#eef7ec" stroke="#38761d" stroke-width="1.5"/>
-    <text x="680" y="440" text-anchor="middle" font-size="15" font-weight="bold" fill="#38761d">🗂 Sponsor Workspace (Coordinator's daily view)</text>
-    <text x="680" y="462" text-anchor="middle" font-size="11" fill="#3c6b2e">Auto-pulls contact info, stage, and notes from Master Tracker</text>
-    <text x="680" y="479" text-anchor="middle" font-size="11" fill="#3c6b2e">Stage-specific checklist appears automatically</text>
-    <text x="680" y="496" text-anchor="middle" font-size="11" fill="#3c6b2e">Check off tasks → click Advance Stage → next stage's checklist loads</text>
-    <text x="680" y="513" text-anchor="middle" font-size="11" fill="#3c6b2e">Master Tracker updates in the same click — fully in sync</text>
-  </g>
-
-  <!-- loop arrow back to Master Tracker -->
-  <path d="M 940 470 C 1050 470, 1050 300, 885 300" fill="none" stroke="#9aa7bd" stroke-width="1.8" stroke-dasharray="5,4" marker-end="url(#arrow)"/>
-  <text x="1010" y="392" font-size="10" fill="#8a94a6">syncs back automatically</text>
-
-  <!-- down arrow to dashboard -->
-  <line x1="680" y1="524" x2="680" y2="558" stroke="#5b7cad" stroke-width="2" marker-end="url(#arrow)"/>
-
-  <g>
-    <rect x="500" y="560" width="360" height="50" rx="12" fill="#1c4587"/>
-    <text x="680" y="591" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">📊 Executive Dashboard — updates live, no manual work</text>
-  </g>
-</svg>
-
-**Key Features:**
-- 10-stage pipeline structure matching the client's actual process
-- Automated stage tracking in Google Sheets
-- Dashboard view for at-a-glance pipeline status
-- Apps Script logic to move records through the pipeline
 
 **Screenshots**
-Form - Leads save to sheets- 
+| 📁 Auto Drive Folder | 📊 Master Tracker |
+|---|---|
+| <img width="401" height="531" alt="Screenshot 2026-08-07 112835" src="https://github.com/user-attachments/assets/3d06b76c-d585-41d2-acdc-55eabae10451" /> | <img width="1418" height="156" alt="Screenshot 2026-08-07 121407" src="https://github.com/user-attachments/assets/88ab6e0d-1906-4b79-b36b-52294c38508a" />
+| Automatically creates a Drive folder for every approved lead. | Central source of truth for lead data, Sponsor ID, and workflow status. |
 
-image is 
-auto create Folder of Leads
-<img width="401" height="531" alt="Screenshot 2026-08-07 112835" src="https://github.com/user-attachments/assets/3d06b76c-d585-41d2-acdc-55eabae10451" />
+| 👩‍💼 Coordinator Workspace | ✅ Stage Checklist |
+|---|---|
+| <img width="987" height="560" alt="Screenshot 2026-08-07 121832" src="https://github.com/user-attachments/assets/691789f0-2b40-48d5-9ef4-6ec465d92d3c" /> | <img width="566" height="525" alt="Screenshot 2026-08-07 140733" src="https://github.com/user-attachments/assets/bca5b3fb-bec3-4d23-830c-7099dbe1da36" /> |
+| Coordinators manage and update leads from one workspace. | Checklist ensures each stage is completed before moving to the next. |
 
-Master Tracker
-<img width="1418" height="156" alt="Screenshot 2026-08-07 121407" src="https://github.com/user-attachments/assets/88ab6e0d-1906-4b79-b36b-52294c38508a" />
+| 📈 Dashboard Summary | |
+|---|---|
+| <img width="698" height="562" alt="Screenshot 2026-08-07 121512" src="https://github.com/user-attachments/assets/d27e2214-6d1f-4ca2-b840-d2e2871ec59e" /> | Displays real-time workflow progress and operational metrics. |
 
-Coordinator Workspace
-<img width="987" height="560" alt="Screenshot 2026-08-07 121832" src="https://github.com/user-attachments/assets/691789f0-2b40-48d5-9ef4-6ec465d92d3c" />
 
-Dashboard Summary
-<img width="698" height="562" alt="Screenshot 2026-08-07 121512" src="https://github.com/user-attachments/assets/d27e2214-6d1f-4ca2-b840-d2e2871ec59e" />
-stage summary
-<img width="566" height="525" alt="Screenshot 2026-08-07 140733" src="https://github.com/user-attachments/assets/bca5b3fb-bec3-4d23-830c-7099dbe1da36" />
+### Business Questions This System Answers
 
-*Form - Leads save to sheets- auto create Folder of Leads - Master Tracker - Coordinator Workspace*
+- Where is each lead in the workflow right now?
+- Which stage requires coordinator action?
+- Which records are delayed or waiting for completion?
+- How many leads are currently active in each stage?
 
-**Business Questions Answered:**
-- Where is each record in the 10-stage process right now?
-- Which stage is creating the biggest bottleneck?
+### Business Value
 
-**Business Value:** Replaces a manual, stage-by-stage process with a structured system that's easy to track at a glance.
+- Standardizes a complex 10-stage coordination process
+- Reduces manual tracking and repetitive updates
+- Improves visibility across the entire workflow
+- Keeps all lead information synchronized in one source of truth
+- Helps coordinators complete tasks consistently while giving management real-time pipeline visibility
 
-**Honest note:** This system was fully built and delivered under a real contract. The handoff was never completed — the client wasn't given system access before communication stopped, so it was never put into use or paid out. Shown here as real, contracted work rather than a system currently in active client use.
+### Tech Stack
 
-**Tech Stack:** `Google Sheets` `Google Apps Script` `Workflow Automation` `Dashboard`
+`Google Sheets` `Google Apps Script` `Workflow Automation` `Dashboard`
 
 ---
 
