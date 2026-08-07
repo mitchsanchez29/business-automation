@@ -11,7 +11,7 @@ Systems that remove repetitive manual work — quote generation, lead pipelines,
 | Project | Project Type |
 |---------|--------------|
 | [Lead Operations Management System](#lead-operations-management-system) | 🏢 Work Project |
-| [Slack Notification Automation](#slack-notification-automation) | 🏢 Work Project |
+| [Slack Payment Notification Automation](#slack-payment-notification-automation) | 🏢 Work Project |
 | [Automated Quotation & CRM](#automated-quotation--crm-system) | 💡 Portfolio Project |
 | [Lead Management Automation](#lead-management-automation) | 💡 Portfolio Project |
 
@@ -95,36 +95,48 @@ The system automatically:
 `Google Sheets` `Google Apps Script` `Workflow Automation` `Dashboard`
 
 ---
+# Slack Payment Notification Automation
 
-## Slack Notification Automation
+Real-time Slack alerts for upcoming, overdue, and received payments—keeping the operations and sales team informed without manual updates.
 
-**Type:** WORK PROJECT
+## Business Problem
 
-**Business Problem:** Status updates (form submissions, sheet edits) required someone to manually message the team.
+The team relied on manually checking payment trackers and sending status updates, causing delays in follow-ups and reducing visibility across the sales team.
 
-**Business Goal:** Get the team real-time updates without anyone having to type a message.
+## Business Goal
 
-**My Solution:** Apps Script listens for trigger events and sends real-time notifications to a Slack channel via Incoming Webhooks, eliminating manual status update messages.
+Automatically notify the team about payment updates, enabling faster collections and better visibility.
 
-**Workflow**
+## My Solution
 
-<img width="697" height="267" alt="Screenshot 2026-06-05 181556" src="https://github.com/user-attachments/assets/2dcf9943-c06b-4aba-80a0-c86fdc0be2cb" />
+Built an automated workflow using Google Sheets, Google Apps Script, Zapier, and Slack. Payment status changes automatically trigger real-time Slack notifications for upcoming payments, overdue accounts, and payments received.
 
-**Key Features:**
-- Listens for form submissions and sheet edits
-- Sends real-time Slack notifications via Incoming Webhooks
-- No manual messaging required
+## Workflow
 
-**Screenshots**
+```mermaid
+flowchart TD
+A[Google Sheets] --> B[Apps Script]
+B --> C[Zapier]
+C --> D[Slack]
+D --> E[Operations Team]
+```
 
-*Screenshot Coming Soon*
+## Key Features
 
-**Business Questions Answered:**
-- Has this trigger event already been flagged to the team?
+- Real-time Slack notifications
+- Upcoming, overdue, and payment received alerts
+- Automated payment status monitoring
+- Supports Setters, Dialers, Closers, and Operations
 
-**Business Value:** Faster team visibility into updates, with zero manual messaging required.
+## Business Value
 
-**Tech Stack:** `Google Apps Script` `UrlFetchApp` `Slack Incoming Webhooks` `REST API` `JSON`
+- Eliminated manual payment updates
+- Improved team visibility
+- Enabled faster payment follow-ups
+
+## Tech Stack
+
+`Google Sheets` · `Google Apps Script` · `Zapier` · `Slack`
 
 ---
 
