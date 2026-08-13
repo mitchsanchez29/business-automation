@@ -102,12 +102,8 @@ Complete, traceable Sponsor workflow
 
 | Lead & Sponsor Search | Sponsor Workspace Access | Questionnaire & Application |
 |---|---|---|
-| <img width="323" height="326" alt="Screenshot 2026-08-13 143838" src="https://github.com/user-attachments/assets/af43736e-7924-4936-8ea7-4557c7973b30" />
- | <img width="323" height="326" alt="Screenshot 2026-08-13 143838" src="https://github.com/user-attachments/assets/af43736e-7924-4936-8ea7-4557c7973b30" />
-|<img width="357" height="588" alt="Screenshot 2026-08-13 144233" src="https://github.com/user-attachments/assets/8f795229-94e4-402d-9f4e-018e24c39f9f" /> |
-
-The sidebar provides a centralized navigation point for finding Leads and Sponsors, accessing Sponsor records and workspaces, checking workflow status, and sending the appropriate Questionnaire or Application based on the Sponsor's current stage.
-
+| <img width="323" height="326" alt="Lead & Sponsor Search" src="https://github.com/user-attachments/assets/af43736e-7924-4936-8ea7-4557c7973b30" /> | <img width="323" height="326" alt="Sponsor Workspace Access" src="https://github.com/user-attachments/assets/af43736e-7924-4936-8ea7-4557c7973b30" /> | <img width="357" height="588" alt="Questionnaire & Application" src="https://github.com/user-attachments/assets/8f795229-94e4-402d-9f4e-018e24c39f9f" /> |
+The sidebar provides a centralized navigation point for finding Leads and Sponsors, accessing Sponsor workspaces, checking workflow status, and sending the appropriate Questionnaire or Application based on the Sponsor's current stage.
 
 |  Email received by the Client |  Email Notification to the Coordinator |
 |---|---|
