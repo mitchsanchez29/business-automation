@@ -43,7 +43,8 @@ The system automatically:
 - Provides a live dashboard showing the status of every lead in the pipeline
 
 **Workflow**
-https://chatgpt.com/s/m_6a7d7f52b1248191a46b341fad3afaae
+<img width="901" height="1744" alt="image" src="https://github.com/user-attachments/assets/98e940ab-1648-4b4c-a6b6-68edc1fe64c8" />
+
 
 ### Key Features
 
