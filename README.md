@@ -95,10 +95,10 @@ Complete, traceable Sponsor workflow
 
 **Screenshots**
 
-|  Coordinator Workspace |  Stage Checklist |
+|  Coordinator Workspace |  System Overview |
 |---|---|
-| <img width="654" height="604" alt="Screenshot 2026-08-13 143641" src="https://github.com/user-attachments/assets/b5257624-a1bf-4416-8270-c641a204b7e2" /> | <img width="566" height="525" alt="Screenshot 2026-08-07 140733" src="https://github.com/user-attachments/assets/bca5b3fb-bec3-4d23-830c-7099dbe1da36" /> |
-| Coordinators manage and update leads from one workspace. | Checklist ensures each stage is completed before moving to the next. |
+| <img width="654" height="604" alt="Screenshot 2026-08-13 143641" src="https://github.com/user-attachments/assets/b5257624-a1bf-4416-8270-c641a204b7e2" /> | <img width="722" height="478" alt="Screenshot 2026-08-13 161632" src="https://github.com/user-attachments/assets/9c887ce6-a040-46af-8b6f-3cfc96bc4bab" /> |
+| Coordinators manage and update leads from one workspace. | A guided entry point that organizes the system into clear operational areas, making it easier to navigate the Sponsor workflow from lead intake through final placement.|
 
 | Lead & Sponsor Search | Sponsor Workspace Access | Questionnaire & Application |
 |---|---|---|
@@ -114,12 +114,9 @@ The sidebar provides a centralized navigation point for finding Leads and Sponso
 
 |  Auto Drive Folder |  Master Tracker |
 |---|---|
-| <img width="401" height="531" alt="Screenshot 2026-08-07 112835" src="https://github.com/user-attachments/assets/3d06b76c-d585-41d2-acdc-55eabae10451" /> | <img width="1418" height="156" alt="Screenshot 2026-08-07 121407" src="https://github.com/user-attachments/assets/88ab6e0d-1906-4b79-b36b-52294c38508a" />
-| Automatically creates a Drive folder for every approved lead and save docs. | Central source of truth for lead data, Sponsor ID, and workflow status. |
+| <img width="594" height="462" alt="Screenshot 2026-08-13 151147" src="https://github.com/user-attachments/assets/408cd077-9b20-4057-9cb8-c109f2cb16fe" /> | <img width="676" height="502" alt="Screenshot 2026-08-13 154833" src="https://github.com/user-attachments/assets/ccf99422-5f95-49b3-9688-ba267c5e56d0" />
+| Automatically creates a Drive folder for every approved lead and save docs. | Displays real-time workflow progress and operational metrics. |
 
-|  Dashboard Summary | |
-|---|---|
-| <img width="676" height="502" alt="Screenshot 2026-08-13 154833" src="https://github.com/user-attachments/assets/ccf99422-5f95-49b3-9688-ba267c5e56d0" />| Displays real-time workflow progress and operational metrics. |
 
 
 ### Business Questions This System Answers
