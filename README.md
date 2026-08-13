@@ -23,6 +23,136 @@ Systems that remove repetitive manual work — quote generation, lead pipelines,
 
 ### Business Problem
 
+The client managed leads through a 8-stage coordination process using multiple spreadsheets and manual updates. Tracking progress, assigning tasks, and ensuring every required step was completed became time-consuming and difficult to monitor.
+
+### Business Goal
+
+Create a centralized workflow that standardizes the coordination process, improves visibility, and keeps every lead moving through each stage consistently.
+
+### My Solution
+
+Built a Google Sheets and Apps Script workflow automation that manages the entire coordination process from lead approval to completion.
+
+The system automatically:
+- Creates a unique Sponsor ID for approved leads
+- Generates a dedicated Google Drive folder for each lead
+- Stores all records in a centralized Master Tracker
+- Loads lead information into the Coordinator Workspace
+- Guides coordinators through a standardized 10-stage checklist
+- Updates the Master Tracker automatically as each stage is completed
+- Provides a live dashboard showing the status of every lead in the pipeline
+
+**Workflow**
+
+LEAD INTAKE
+Google Form
+        ↓
+DUPLICATE REVIEW
+Lead ID + duplicate check
+        ↓
+COORDINATOR DECISION
+Review → Approve / Reject
+        ↓
+SPONSOR CREATED
+Sponsor ID + Drive Folder
+        ↓
+CENTRALIZED RECORD
+Master Tracker + Sponsor details
+        ↓
+SPONSOR WORKSPACE
+Stage Progression + Checklist + Status
+        ↓
+STAGE-BASED ACTIONS
+Questionnaire → Application
+        ↓
+AUTOMATED COMMUNICATION
+Sponsor Emails + Coordinator Notifications
+        ↓
+DOCUMENT MANAGEMENT
+Application Uploads → Sponsor Drive Folder
+        ↓
+8-STAGE PROGRESSION
+Tasks completed → Advance Stage → Stage History
+        ↓
+FOLLOW-UP FINDER
+Who is in each stage + Who needs action
+        ↓
+FINAL APPROVAL & PLACEMENT
+Complete, traceable Sponsor workflow
+
+### Key Features
+
+- Google Form lead intake
+- Duplicate lead validation
+- Coordinator approval (Approve / Reject / Cancel)
+- Automatic Sponsor ID generation
+- Automatic Google Drive folder creation
+- Centralized Master Tracker
+- Coordinator Workspace with auto-populated lead details
+- 10-stage checklist with automated stage progression
+- Real-time dashboard for operational visibility
+
+
+**Screenshots**
+
+|  Coordinator Workspace |  Stage Checklist |
+|---|---|
+| <img width="654" height="604" alt="Screenshot 2026-08-13 143641" src="https://github.com/user-attachments/assets/b5257624-a1bf-4416-8270-c641a204b7e2" /> | <img width="566" height="525" alt="Screenshot 2026-08-07 140733" src="https://github.com/user-attachments/assets/bca5b3fb-bec3-4d23-830c-7099dbe1da36" /> |
+| Coordinators manage and update leads from one workspace. | Checklist ensures each stage is completed before moving to the next. |
+
+| Lead & Sponsor Search | Sponsor Workspace Access | Questionnaire & Application |
+|---|---|---|
+| <img width="323" height="326" alt="Screenshot 2026-08-13 143838" src="https://github.com/user-attachments/assets/af43736e-7924-4936-8ea7-4557c7973b30" />
+ | <img width="323" height="326" alt="Screenshot 2026-08-13 143838" src="https://github.com/user-attachments/assets/af43736e-7924-4936-8ea7-4557c7973b30" />
+|<img width="357" height="588" alt="Screenshot 2026-08-13 144233" src="https://github.com/user-attachments/assets/8f795229-94e4-402d-9f4e-018e24c39f9f" /> |
+
+The sidebar provides a centralized navigation point for finding Leads and Sponsors, accessing Sponsor records and workspaces, checking workflow status, and sending the appropriate Questionnaire or Application based on the Sponsor's current stage.
+
+
+|  Email received by the Client |  Email Notification to the Coordinator |
+|---|---|
+| <img width="923" height="517" alt="Screenshot 2026-08-13 144337" src="https://github.com/user-attachments/assets/3a396a67-054c-4925-9d30-7ac27a5b76b7" />| <img width="856" height="514" alt="Screenshot 2026-08-13 144502" src="https://github.com/user-attachments/assets/5fe555c8-fc28-497c-a706-e75fc26a28ba" />
+| Automatically sends the Questionnaire or Application to the Sponsor via email. | Automatically notifies the Coordinator when the Sponsor submits a response. |
+
+
+|  Auto Drive Folder |  Master Tracker |
+|---|---|
+| <img width="401" height="531" alt="Screenshot 2026-08-07 112835" src="https://github.com/user-attachments/assets/3d06b76c-d585-41d2-acdc-55eabae10451" /> | <img width="1418" height="156" alt="Screenshot 2026-08-07 121407" src="https://github.com/user-attachments/assets/88ab6e0d-1906-4b79-b36b-52294c38508a" />
+| Automatically creates a Drive folder for every approved lead and save docs. | Central source of truth for lead data, Sponsor ID, and workflow status. |
+
+|  Dashboard Summary | |
+|---|---|
+| <img width="676" height="502" alt="Screenshot 2026-08-13 154833" src="https://github.com/user-attachments/assets/ccf99422-5f95-49b3-9688-ba267c5e56d0" />| Displays real-time workflow progress and operational metrics. |
+
+
+### Business Questions This System Answers
+
+- Where is each lead in the workflow right now?
+- Which stage requires coordinator action?
+- Which records are delayed or waiting for completion?
+- How many leads are currently active in each stage?
+
+### Business Value
+
+- Standardizes a complex 10-stage coordination process
+- Reduces manual tracking and repetitive updates
+- Improves visibility across the entire workflow
+- Keeps all lead information synchronized in one source of truth
+- Helps coordinators complete tasks consistently while giving management real-time pipeline visibility
+
+### Tech Stack
+
+`Google Sheets` `Google Apps Script` `Workflow Automation` `Dashboard`
+
+
+
+
+## Lead Operations Management System
+
+**Type:** Work Project
+
+### Business Problem
+
 The client managed leads through a 10-stage coordination process using multiple spreadsheets and manual updates. Tracking progress, assigning tasks, and ensuring every required step was completed became time-consuming and difficult to monitor.
 
 ### Business Goal
