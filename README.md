@@ -38,7 +38,7 @@ The system automatically:
 - Generates a dedicated Google Drive folder for each lead
 - Stores all records in a centralized Master Tracker
 - Loads lead information into the Coordinator Workspace
-- Guides coordinators through a standardized 10-stage checklist
+- Guides coordinators through a standardized 8-stage checklist
 - Updates the Master Tracker automatically as each stage is completed
 - Provides a live dashboard showing the status of every lead in the pipeline
 
@@ -56,7 +56,7 @@ The system automatically:
 - Automatic Google Drive folder creation
 - Centralized Master Tracker
 - Coordinator Workspace with auto-populated lead details
-- 10-stage checklist with automated stage progression
+- 8-stage checklist with automated stage progression
 - Real-time dashboard for operational visibility
 
 
