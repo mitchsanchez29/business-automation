@@ -106,6 +106,7 @@ The sidebar provides a centralized navigation point for finding Leads and Sponso
 `Google Sheets` `Google Apps Script` `Workflow Automation` `Dashboard`
 
 [⬆ Back to Top](#business-automation)
+
 ---
 
 # Slack Payment Notification Automation
@@ -145,6 +146,7 @@ Built an automated workflow using Google Sheets, Google Apps Script, Zapier, and
 `Google Sheets` · `Google Apps Script` · `Zapier` · `Slack`
 
 [⬆ Back to Top](#business-automation)
+
 ---
 
 ## Automated Quotation & CRM
@@ -168,14 +170,14 @@ Built an automated workflow using Google Sheets, Google Apps Script, Zapier, and
 - Client email sent with the quote attached — no manual sending
 
 **Screenshots**
-## 📸 System Walkthrough
+##  System Walkthrough
 
-| 📝 Quotation Request Form | 📊 Lead Tracker |
+|  Quotation Request Form |  Lead Tracker |
 |---|---|
 | <img width="317" height="693" alt="Screenshot 2026-08-07 154604" src="https://github.com/user-attachments/assets/643757d2-e905-43df-8bb9-dd594b6ebde4" />| <img width="600" alt="Lead Tracker" src="https://github.com/user-attachments/assets/f4f73371-54c9-4d2f-841e-1372d42445fc" /> |
 | Clients submit quotation requests through a Google Form, automatically triggering the quotation workflow. | Centralized tracker that records every quotation, generates a unique quotation number, and monitors the status of each request. |
 
-| 📈 Dashboard Summary | 📁 Automated Quote Delivery & Storage |
+|  Dashboard Summary |  Automated Quote Delivery & Storage |
 |---|---|
 | <img width="600" alt="Dashboard Summary" src="https://github.com/user-attachments/assets/d1705835-5754-47bb-9624-3eac80989d28" /> | <img width="800" alt="Auto-generated Response and Drive Storage" src="https://github.com/user-attachments/assets/1ec987a5-3cb4-41c0-9b54-4807398515c7" /> |
 | Provides a real-time overview of quotation activity, status, and overall workflow performance. | Automatically generates the quotation, converts it to PDF, stores it in Google Drive, and emails it to the client without manual intervention. |
@@ -189,6 +191,7 @@ Built an automated workflow using Google Sheets, Google Apps Script, Zapier, and
 **Tech Stack:** `Google Forms` `Apps Script` `Google Sheets` `Google Docs` `Drive` `Gmail` `PDF`
 
 [⬆ Back to Top](#business-automation)
+
 ---
 
 ## Lead Management Automation
@@ -226,7 +229,6 @@ The system automatically:
 - Instant email notification for new leads
 - Reporting-ready Google Sheets database
 
-[⬆ Back to Top](#business-automation)
 ---
 
 ##  System Walkthrough
