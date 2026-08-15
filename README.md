@@ -9,15 +9,17 @@
 
 ## Featured Projects
 
-## 🚀 Featured Projects
+### [Lead Operations Management System](#lead-operations-management-system)
+![Work Project](https://img.shields.io/badge/🏢_Work_Project-14b8a6?style=flat-square)
 
-| # | Project | Type | Tech Stack |
-|---|---------|------|------------|
-| 01 | [Lead Operations Management System](#lead-operations-management-system) | 🏢 Work Project | Google Sheets · Apps Script |
-| 02 | [Slack Payment Notification Automation](#slack-payment-notification-automation) | 🏢 Work Project | Zapier · Slack |
-| 03 | [Automated Quotation & CRM](#automated-quotation--crm-system) | 💡 Portfolio Project | Apps Script · Gmail |
-| 04 | [Lead Management Automation](#lead-management-automation) | 💡 Portfolio Project | Airtable · Zapier |
+### [Slack Payment Notification Automation](#slack-payment-notification-automation)
+![Work Project](https://img.shields.io/badge/🏢_Work_Project-14b8a6?style=flat-square)
 
+### [Automated Quotation & CRM](#automated-quotation--crm-system)
+![Portfolio Project](https://img.shields.io/badge/💡_Portfolio_Project-64748b?style=flat-square)
+
+### [Lead Management Automation](#lead-management-automation)
+![Portfolio Project](https://img.shields.io/badge/💡_Portfolio_Project-64748b?style=flat-square)
 ---
 
 ## Lead Operations Management System
