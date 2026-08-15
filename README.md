@@ -1,3 +1,4 @@
+![Banner](readme-banner.svg)
 # 🔁 Business Automation
 
 Systems that remove repetitive manual work — quote generation, lead pipelines, notifications, and workflow tracking.
