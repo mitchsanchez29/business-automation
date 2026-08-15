@@ -105,7 +105,7 @@ The sidebar provides a centralized navigation point for finding Leads and Sponso
 
 `Google Sheets` `Google Apps Script` `Workflow Automation` `Dashboard`
 
-[⬆ Back to Top](#business-automation)
+[![Back to Top](https://img.shields.io/badge/⬆_Back_to_Top-14b8a6?style=flat-square)](#business-automation)
 
 ---
 
