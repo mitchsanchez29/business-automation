@@ -105,7 +105,9 @@ The sidebar provides a centralized navigation point for finding Leads and Sponso
 
 `Google Sheets` `Google Apps Script` `Workflow Automation` `Dashboard`
 
+[⬆ Back to Top](#business-automation)
 ---
+
 # Slack Payment Notification Automation
 
 Real-time Slack alerts for upcoming, overdue, and received payments—keeping the operations and sales team informed without manual updates.
@@ -142,6 +144,7 @@ Built an automated workflow using Google Sheets, Google Apps Script, Zapier, and
 
 `Google Sheets` · `Google Apps Script` · `Zapier` · `Slack`
 
+[⬆ Back to Top](#business-automation)
 ---
 
 ## Automated Quotation & CRM
@@ -185,6 +188,7 @@ Built an automated workflow using Google Sheets, Google Apps Script, Zapier, and
 
 **Tech Stack:** `Google Forms` `Apps Script` `Google Sheets` `Google Docs` `Drive` `Gmail` `PDF`
 
+[⬆ Back to Top](#business-automation)
 ---
 
 ## Lead Management Automation
@@ -222,21 +226,22 @@ The system automatically:
 - Instant email notification for new leads
 - Reporting-ready Google Sheets database
 
+[⬆ Back to Top](#business-automation)
 ---
 
-## 📸 System Walkthrough
+##  System Walkthrough
 
-| 📝 Airtable Lead Intake Form | 📋 Airtable Lead Pipeline |
+|  Airtable Lead Intake Form |  Airtable Lead Pipeline |
 |---|---|
 | <img width="438" height="662" alt="Screenshot 2026-08-07 144716" src="https://github.com/user-attachments/assets/01835830-431c-4ffa-9648-44917c5a5ac3" />| <img width="1163" height="327" alt="Screenshot 2026-08-07 144954" src="https://github.com/user-attachments/assets/f88b7118-5ff5-48dc-b320-577477afc975" /> |
 | New leads are submitted through an Airtable Form and automatically added to the pipeline. | All submitted leads are organized in Airtable, providing a centralized view of every lead and its current stage. |
 
-| 📊 Google Sheets Reporting Database | ⚡ Zapier Automation Workflow |
+|  Google Sheets Reporting Database | ⚡ Zapier Automation Workflow |
 |---|---|
 | <img width="1325" height="243" alt="Screenshot 2026-08-07 150644" src="https://github.com/user-attachments/assets/9221e09d-bf9b-4570-8ebe-9f73fa0b8193" />| <img width="296" height="397" alt="Screenshot 2026-08-07 145552" src="https://github.com/user-attachments/assets/61b42b51-1106-42b0-8581-2bc494f6edeb" />|
 | Lead information is automatically synchronized to Google Sheets, creating a centralized reporting database for analysis and future automations. | Zapier connects Airtable, Google Sheets, and Gmail, eliminating manual data entry and keeping lead information synchronized. |
 
-| 📧 New Lead Notification | |
+|  New Lead Notification | |
 |---|---|
 | <img width="317" height="465" alt="Screenshot 2026-08-07 152745" src="https://github.com/user-attachments/assets/3536a2e4-6758-4b24-b317-8b1610074988" />| Automatically sends an email notification to the sales manager whenever a new lead is submitted, enabling faster follow-up and reducing the risk of missed opportunities. |
 
