@@ -1,6 +1,9 @@
 ![Banner](readme-banner.svg)
 
-[⬅ Back to Profile](https://github.com/mitchsanchez29) · [📊 Reporting & Analytics](https://github.com/mitchsanchez29/reporting-analytics) · [💰 Finance & Operations](https://github.com/mitchsanchez29/finance-operations)
+[![Back to Profile](https://img.shields.io/badge/←_Back_to_Profile-0f172a?style=for-the-badge)](https://github.com/mitchsanchez29)
+[![Portfolio](https://img.shields.io/badge/Portfolio-14b8a6?style=for-the-badge)](https://michelle-systems-studio.lovable.app)
+[![Reporting & Analytics](https://img.shields.io/badge/Reporting_%26_Analytics-14b8a6?style=for-the-badge)](https://github.com/mitchsanchez29/reporting-analytics)
+[![Finance & Operations](https://img.shields.io/badge/Finance_%26_Operations-14b8a6?style=for-the-badge)](https://github.com/mitchsanchez29/finance-operations)
 
 ---
 
