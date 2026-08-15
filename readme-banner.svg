@@ -1,10 +1,33 @@
 <svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="300" fill="#0f172a"/>
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#132038"/>
+    </linearGradient>
+    <pattern id="dots1" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#1e293b"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg1)"/>
+  <rect width="1200" height="300" fill="url(#dots1)"/>
+
   <rect x="0" y="0" width="1200" height="6" fill="#14b8a6"/>
   <rect x="0" y="294" width="1200" height="6" fill="#14b8a6"/>
+
+  <!-- icon: workflow gear/nodes, top right -->
+  <g transform="translate(1020,60)" opacity="0.9">
+    <circle cx="30" cy="30" r="26" fill="none" stroke="#14b8a6" stroke-width="2.5"/>
+    <circle cx="30" cy="30" r="8" fill="#14b8a6"/>
+    <circle cx="30" cy="4" r="4" fill="#14b8a6"/>
+    <circle cx="30" cy="56" r="4" fill="#14b8a6"/>
+    <circle cx="4" cy="30" r="4" fill="#14b8a6"/>
+    <circle cx="56" cy="30" r="4" fill="#14b8a6"/>
+  </g>
+
   <text x="60" y="90" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="2" fill="#14b8a6">WORKFLOW AUTOMATION</text>
-  
+
   <text x="58" y="170" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="800" fill="#f8fafc" letter-spacing="-1">Business Automation</text>
-  <text x="58" y="215" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#94a3b8" letter-spacing="0">Systems that remove repetitive manual work - quote generation,</text>
+  <text x="58" y="215" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#94a3b8" letter-spacing="0">Systems that remove repetitive manual work: quote generation,</text>
   <text x="58" y="245" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#94a3b8" letter-spacing="0">lead pipelines, notifications, and workflow tracking.</text>
 </svg>
