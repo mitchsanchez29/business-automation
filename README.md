@@ -1,9 +1,5 @@
 ![Banner](readme-banner.svg)
 
-# 🔁 Business Automation
-
-Systems that remove repetitive manual work — quote generation, lead pipelines, notifications, and workflow tracking.
-
 [⬅ Back to Profile](https://github.com/mitchsanchez29) · [📊 Reporting & Analytics](https://github.com/mitchsanchez29/reporting-analytics) · [💰 Finance & Operations](https://github.com/mitchsanchez29/finance-operations)
 
 ---
