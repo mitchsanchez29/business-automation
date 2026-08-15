@@ -45,7 +45,7 @@ The system automatically:
 
 **Workflow**
 
-<img width="901" height="1654" alt="ChatGPT Image Aug 13, 2026, 04_25_52 PM" src="https://github.com/user-attachments/assets/8fd6b19a-5ef6-4dca-b9cd-ed5c19edcaa0" />
+<img width="2000" height="520" alt="image" src="https://github.com/user-attachments/assets/dae16f92-aead-4511-a708-a9483498018b" />
 
 
 ### Key Features
