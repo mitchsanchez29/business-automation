@@ -126,7 +126,7 @@ Automatically notify the team about payment updates, enabling faster collections
 Built an automated workflow using Google Sheets, Google Apps Script, Zapier, and Slack. Payment status changes automatically trigger real-time Slack notifications for upcoming payments, overdue accounts, and payments received.
 
 ## Workflow
-<img width="291" height="476" alt="Screenshot 2026-08-07 161939" src="https://github.com/user-attachments/assets/9f2e10e4-af2b-4267-8bf1-805a5505c3bb" />
+<img width="2000" height="440" alt="image" src="https://github.com/user-attachments/assets/2e037fd6-706e-4aa2-ba3c-8b035f896b34" />
 
 ## Key Features
 
