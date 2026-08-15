@@ -217,8 +217,7 @@ The system automatically:
 - Sends an automatic email notification to the sales manager whenever a new lead is received
 
 **Workflow**
-
-*(Workflow Diagram)*
+<img width="2100" height="440" alt="image" src="https://github.com/user-attachments/assets/71c99535-97d5-48ca-8b05-45fd116d033b" />
 
 ### Key Features
 
