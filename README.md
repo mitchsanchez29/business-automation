@@ -145,7 +145,7 @@ Built an automated workflow using Google Sheets, Google Apps Script, Zapier, and
 
 `Google Sheets` · `Google Apps Script` · `Zapier` · `Slack`
 
-[⬆ Back to Top](#business-automation)
+[![Back to Top](https://img.shields.io/badge/⬆_Back_to_Top-14b8a6?style=flat-square)](#business-automation)
 
 ---
 
@@ -190,7 +190,7 @@ Built an automated workflow using Google Sheets, Google Apps Script, Zapier, and
 
 **Tech Stack:** `Google Forms` `Apps Script` `Google Sheets` `Google Docs` `Drive` `Gmail` `PDF`
 
-[⬆ Back to Top](#business-automation)
+[![Back to Top](https://img.shields.io/badge/⬆_Back_to_Top-14b8a6?style=flat-square)](#business-automation)
 
 ---
 
@@ -278,7 +278,10 @@ The workflow was designed to support additional automations using Multi-Step Zap
 
 `Airtable` `Airtable Forms` `Zapier` `Google Sheets` `Gmail`
 
+[![Back to Top](https://img.shields.io/badge/⬆_Back_to_Top-14b8a6?style=flat-square)](#business-automation)
+
 ---
+
 ## Let's Talk
 
 If you see a similar challenge in your business, I'd be happy to discuss ideas and possible solutions.
@@ -287,6 +290,7 @@ If you see a similar challenge in your business, I'd be happy to discuss ideas a
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michelle29/)
 
 ---
+
 [![Back to Profile](https://img.shields.io/badge/←_Back_to_Profile-0f172a?style=for-the-badge)](https://github.com/mitchsanchez29)
 [![Portfolio](https://img.shields.io/badge/Portfolio-14b8a6?style=for-the-badge)](https://michelle-systems-studio.lovable.app)
 [![Reporting & Analytics](https://img.shields.io/badge/Reporting_%26_Analytics-14b8a6?style=for-the-badge)](https://github.com/mitchsanchez29/reporting-analytics)
