@@ -9,12 +9,14 @@
 
 ## Featured Projects
 
-| Project | Project Type |
-|---------|--------------|
-| [Lead Operations Management System](#lead-operations-management-system) | 🏢 Work Project |
-| [Slack Payment Notification Automation](#slack-payment-notification-automation) | 🏢 Work Project |
-| [Automated Quotation & CRM](#automated-quotation--crm-system) | 💡 Portfolio Project |
-| [Lead Management Automation](#lead-management-automation) | 💡 Portfolio Project |
+## 🚀 Featured Projects
+
+| # | Project | Type | Tech Stack |
+|---|---------|------|------------|
+| 01 | [Lead Operations Management System](#lead-operations-management-system) | 🏢 Work Project | Google Sheets · Apps Script |
+| 02 | [Slack Payment Notification Automation](#slack-payment-notification-automation) | 🏢 Work Project | Zapier · Slack |
+| 03 | [Automated Quotation & CRM](#automated-quotation--crm-system) | 💡 Portfolio Project | Apps Script · Gmail |
+| 04 | [Lead Management Automation](#lead-management-automation) | 💡 Portfolio Project | Airtable · Zapier |
 
 ---
 
@@ -277,10 +279,11 @@ The workflow was designed to support additional automations using Multi-Step Zap
 
 If you see a similar challenge in your business, I'd be happy to discuss ideas and possible solutions.
 
-📧 **[Email](mailto:sanchezmitch77@gmail.com)**
-
-💼 **[LinkedIn](https://www.linkedin.com/in/michelle29/)**
+[![Email](https://img.shields.io/badge/📧_Email-14b8a6?style=for-the-badge)](mailto:sanchezmitch77@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michelle29/)
 
 ---
-[⬅ Back to Profile](https://github.com/mitchsanchez29) · [📊 Reporting & Analytics](https://github.com/mitchsanchez29/reporting-analytics) · [💰 Finance & Operations](https://github.com/mitchsanchez29/finance-operations)
-
+[![Back to Profile](https://img.shields.io/badge/←_Back_to_Profile-0f172a?style=for-the-badge)](https://github.com/mitchsanchez29)
+[![Portfolio](https://img.shields.io/badge/Portfolio-14b8a6?style=for-the-badge)](https://michelle-systems-studio.lovable.app)
+[![Reporting & Analytics](https://img.shields.io/badge/Reporting_%26_Analytics-14b8a6?style=for-the-badge)](https://github.com/mitchsanchez29/reporting-analytics)
+[![Finance & Operations](https://img.shields.io/badge/Finance_%26_Operations-14b8a6?style=for-the-badge)](https://github.com/mitchsanchez29/finance-operations)
