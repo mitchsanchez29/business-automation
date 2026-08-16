@@ -18,8 +18,6 @@
 
 ---
 
-![](https://img.shields.io/badge/PROJECT-Lead_Operations_Management_System-0f172a?style=flat-square&labelColor=0f172a&color=14b8a6)
-
 ## Lead Operations Management System
 
 **Type:** Work Project
