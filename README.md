@@ -101,6 +101,15 @@ The sidebar provides a centralized navigation point for finding Leads and Sponso
 - Keeps all lead information synchronized in one source of truth
 - Helps coordinators complete tasks consistently while giving management real-time pipeline visibility
 
+### Result
+
+| Before | After |
+|---|---|
+| ~4 hours weekly manual status checks | ~15 minutes |
+| 3-day average lead response time | Same-day response |
+| Leads tracked across multiple spreadsheets | One centralized system |
+| Manual end-of-week status reports | Real-time dashboard |
+
 ### Tech Stack
 
 `Google Sheets` `Google Apps Script` `Workflow Automation` `Dashboard`
@@ -141,6 +150,11 @@ Built an automated workflow using Google Sheets, Google Apps Script, Zapier, and
 - Improved team visibility
 - Enabled faster payment follow-ups
 
+### Result
+
+**Eliminated manual payment status checks.** Real-time Slack alerts 
+replaced end-of-day manual updates across Setters, Dialers, and Closers.
+
 ## Tech Stack
 
 `Google Sheets` · `Google Apps Script` · `Zapier` · `Slack`
@@ -170,6 +184,7 @@ Built an automated workflow using Google Sheets, Google Apps Script, Zapier, and
 - Client email sent with the quote attached — no manual sending
 
 **Screenshots**
+
 ##  System Walkthrough
 
 |  Quotation Request Form |  Lead Tracker |
@@ -187,6 +202,12 @@ Built an automated workflow using Google Sheets, Google Apps Script, Zapier, and
 - How many quotes are pending vs. sent this month?
 
 **Business Value:** Fewer manual steps from quote to delivery, faster turnaround for clients, and one clean tracking system instead of scattered files.
+
+### Result
+
+**Zero manual steps** from quote request to delivery. Quotes that used 
+to take manual data entry and follow-up now generate, save, and send 
+automatically.
 
 **Tech Stack:** `Google Forms` `Apps Script` `Google Sheets` `Google Docs` `Drive` `Gmail` `PDF`
 
@@ -262,6 +283,12 @@ The system automatically:
 - Improves visibility into the sales pipeline
 - Enables faster response through instant email notifications
 - Creates a scalable workflow that supports future reporting and automation
+
+### Result
+
+**Instant notification** replaced manual lead checking. Every new lead 
+synced across Airtable and Google Sheets automatically, with zero 
+missed sales team alerts.
 
 ### Future Enhancements
 
