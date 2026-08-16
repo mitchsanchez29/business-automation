@@ -18,7 +18,7 @@
 
 ---
 
-![Project 1](https://img.shields.io/badge/PROJECT_01-14b8a6?style=for-the-badge)
+![](https://img.shields.io/badge/PROJECT-Lead_Operations_Management_System-0f172a?style=flat-square&labelColor=0f172a&color=14b8a6)
 
 ## Lead Operations Management System
 
